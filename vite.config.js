@@ -1,4 +1,4 @@
-﻿import { defineConfig } from 'vite'
+import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
@@ -7,4 +7,4 @@ export default defineConfig({
   build: {
     outDir: 'dist'
   }
-})
+}) 
