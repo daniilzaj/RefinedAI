@@ -21,7 +21,7 @@ const refinePrompt = async () => {
   isLoading.value = true
   
   try {
-    const response = await fetch("https://194.87.94.159:8080/generate", {
+    const response = await fetch("http://194.87.94.159:8080/generate", {
       method: "POST",
       headers: { 
         "Content-Type": "application/json" 
