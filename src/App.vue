@@ -68,7 +68,6 @@ const useExample = (example) => {
 <template>
  <div id="app">
  <header>
- <img src="./assets/logoh1.png" alt="RefinedAI Logo" class="logo" />
 <h1>RefinedAI</h1>
  <p>Улучшаем промты для искусственного интеллекта</p>
 </header>
